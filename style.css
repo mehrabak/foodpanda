@@ -1,0 +1,30 @@
+/* Global styling */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    box-sizing: border-box;
+
+}
+/* Variables */
+:root{
+--color-primary:#e21b70;
+--color-white:#ffff
+}
+/* Resusable btn */
+.btn{
+    display: inline-block;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border-radius: 8px;
+    padding: 6px 40px;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    margin-left: 20px;
+
+}
