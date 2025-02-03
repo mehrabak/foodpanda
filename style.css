@@ -26,5 +26,22 @@
     cursor: pointer;
     user-select: none;
     margin-left: 20px;
+  font-style: normal;
+  font-variant: normal;
+}
+nav{
+    height: 60px;
+    background-color: bisque;
+    display: flex;
+justify-content: flex-start;
+align-items:flex-start ;
+flex-direction:space-between;
 
+
+}
+.img1{
+    float: left;
+    height: 100px;
+    width: 100px;
+    
 }
