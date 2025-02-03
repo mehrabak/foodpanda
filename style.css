@@ -26,17 +26,23 @@
     cursor: pointer;
     user-select: none;
     margin-left: 20px;
-  font-style: normal;
-  font-variant: normal;
+    font-style: normal;
+    font-variant: normal;
 }
+body{
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    font-weight: 300px;
+ }
 nav{
     height: 60px;
-    background-color: bisque;
+    background-color:#ffff ;
     display: flex;
-justify-content: flex-start;
-align-items:flex-start ;
-flex-direction:space-between;
-
+    justify-content: space-between;
+    align-items:center ;
+    position: sticky;
+    top: 0px;
+    z-index:1390;
 
 }
 .img1{
@@ -45,3 +51,13 @@ flex-direction:space-between;
     width: 100px;
     
 }
+.img2, .img3{
+    justify-content: center;
+    height:100px;
+}
+.card{
+    box-sizing: border-box;
+    border: 1px solid black;
+    text-align: left;
+     margin: 16px;
+}   
