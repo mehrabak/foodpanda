@@ -6,7 +6,6 @@
     list-style: none;
     border: none;
     box-sizing: border-box;
-
 }
 /* Variables */
 :root{
@@ -32,9 +31,9 @@
 body{
     font-family: "Open Sans", sans-serif;
     width: 100%;
-    font-weight: 300px;
+    font-weight: 600px;
  }
-nav{
+ .header{
     height: 60px;
     background-color:#ffff ;
     display: flex;
@@ -43,6 +42,9 @@ nav{
     position: sticky;
     top: 0px;
     z-index:1390;
+ }
+nav{
+    
 
 }
 .img1{
@@ -51,13 +53,28 @@ nav{
     width: 100px;
     
 }
-.img2, .img3{
-    justify-content: center;
-    height:100px;
+.hero{ 
+    background-color: #f7f7f7;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.hero img{
+    max-width: 100%;
+}
+
+.hro {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    
 }
 .card{
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 1px solid #ffff;
     text-align: left;
-     margin: 16px;
+    margin: 16px;
+    
+
 }   
